@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DotaPicker"
 include ':app'
+include ':root'

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/heroesPickFragment">
+
+    <fragment
+        android:id="@+id/heroesPickFragment"
+        android:name="com.example.dotapicker.HeroesPickFragment"
+        android:label="fragment_heroes_pick"
+        tools:layout="@layout/fragment_heroes_pick" />
+</navigation>
